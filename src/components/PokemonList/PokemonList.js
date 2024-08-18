@@ -1,4 +1,3 @@
-// components/PokemonList.js
 import React, { useState } from 'react';
 import axios from 'axios';
 import { Container, Button, CardGrid, Card, PokemonImage } from './PokemonList.styles';
