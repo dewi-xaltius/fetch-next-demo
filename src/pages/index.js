@@ -1,9 +1,9 @@
-import PokemonList from '../components/PokemonList';
+import PokemonList from '../components/PokemonList/PokemonList';
 
 export default function Home() {
   return (
-    <div>
-      <h1>Pokémon Gallery</h1>
+    <div style={{ backgroundColor: '#fff3b0', minHeight: '100vh', padding: '20px' }}>
+      <h1 style={{ textAlign: 'center', marginTop: '20px' }}>Pokémon Gallery</h1>
       <PokemonList />
     </div>
   );
